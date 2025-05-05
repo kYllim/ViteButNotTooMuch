@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://digitalgrowth-consultants.com/sitemap.xml
+
+# Disallow backend and administrative areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /includes/
+Disallow: /cgi-bin/
+
+# Disallow duplicate content areas
+Disallow: /print/
+Disallow: /search

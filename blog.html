@@ -1,269 +1,471 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Découvrez les derniers articles du blog ViteButNotTooMuch sur l'équilibre entre rapidité et qualité, productivité et bien-être.">
-  <meta name="keywords" content="vitebutnottoomuch, blog, articles, équilibre, productivité, bien-être, France">
-  <meta name="author" content="ViteButNotTooMuch">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://vitebutnottoomuch.tech/blog.html">
-  
-  <title>Blog ViteButNotTooMuch | Articles sur l'équilibre parfait</title>
-  
-  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-  <link rel="stylesheet" href="/css/variables.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/layout.css">
-  <link rel="stylesheet" href="/css/components.css">
-  <link rel="stylesheet" href="/css/responsive.css">
-  <link rel="stylesheet" href="/css/animations.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="header-inner">
-        <a href="/" class="logo" aria-label="ViteButNotTooMuch - Page d'accueil">
-          <span class="logo-text">ViteButNotTooMuch</span>
-        </a>
-        <nav class="main-nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a href="/" class="nav-link">Accueil</a></li>
-            <li class="nav-item"><a href="/a-propos.html" class="nav-link">À propos</a></li>
-            <li class="nav-item"><a href="/services.html" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="/blog.html" class="nav-link active">Blog</a></li>
-            <li class="nav-item"><a href="/contact.html" class="nav-link">Contact</a></li>
-          </ul>
-        </nav>
-        <button class="mobile-menu-toggle" aria-label="Menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
-      </div>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Découvrez les derniers articles du blog ViteButNotTooMuch sur l'équilibre entre rapidité et qualité, productivité et bien-être."
+    />
+    <meta
+      name="keywords"
+      content="vitebutnottoomuch, blog, articles, équilibre, productivité, bien-être, France"
+    />
+    <meta name="author" content="ViteButNotTooMuch" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://vitebutnottoomuch.tech/blog.html" />
 
-  <main>
-    <section class="page-header">
+    <title>Blog ViteButNotTooMuch | Articles sur l'équilibre parfait</title>
+
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="stylesheet" href="/css/variables.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/layout.css" />
+    <link rel="stylesheet" href="/css/components.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
       <div class="container">
-        <h1 class="page-title">Blog <span class="highlight">ViteButNotTooMuch</span></h1>
-        <p class="page-subtitle">Explorez nos articles sur l'équilibre parfait</p>
-      </div>
-    </section>
-
-    <section class="blog-featured">
-      <div class="container">
-        <article class="featured-post">
-          <div class="featured-post-image">
-            <img src="https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="5 principes fondamentaux de l'approche ViteButNotTooMuch" width="600" height="400">
-          </div>
-          <div class="featured-post-content">
-            <div class="post-meta">
-              <span class="post-date">10 janvier 2025</span>
-              <span class="post-category">Méthodologie</span>
-            </div>
-            <h2 class="post-title">5 principes fondamentaux de l'approche <span class="highlight">ViteButNotTooMuch</span></h2>
-            <p class="post-excerpt">Découvrez les cinq principes clés qui constituent le cœur de notre philosophie <strong>ViteButNotTooMuch</strong> et comment ils peuvent transformer votre approche de la productivité et du bien-être.</p>
-            <a href="/blog/principes-vitebutnottoomuch.html" class="btn btn-secondary">Lire l'article</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="blog-list">
-      <div class="container">
-        <div class="blog-filter">
-          <h2 class="filter-title">Filtrer par catégorie</h2>
-          <div class="filter-options">
-            <button class="filter-btn active" data-filter="all">Tout</button>
-            <button class="filter-btn" data-filter="methodologie">Méthodologie</button>
-            <button class="filter-btn" data-filter="equilibre">Équilibre</button>
-            <button class="filter-btn" data-filter="productivite">Productivité</button>
-            <button class="filter-btn" data-filter="bien-etre">Bien-être</button>
-            <button class="filter-btn" data-filter="etudes-cas">Études de cas</button>
-          </div>
-        </div>
-        
-        <div class="blog-grid">
-          <article class="blog-card">
-            <a href="/blog/entreprises-vitebutnottoomuch.html" class="blog-card-link">
-              <div class="blog-card-image">
-                <img src="https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Comment les entreprises françaises adoptent l'approche ViteButNotTooMuch" width="400" height="250">
-              </div>
-              <div class="blog-card-content">
-                <div class="post-meta">
-                  <span class="post-date">5 janvier 2025</span>
-                  <span class="post-category">Études de cas</span>
-                </div>
-                <h3 class="blog-card-title">Comment les entreprises françaises adoptent l'approche <span class="highlight">ViteButNotTooMuch</span></h3>
-                <p class="blog-card-excerpt">Exploration des stratégies mises en place par les leaders du marché français pour intégrer la philosophie <strong>ViteButNotTooMuch</strong> dans leur culture d'entreprise.</p>
-              </div>
-            </a>
-          </article>
-          
-          <article class="blog-card">
-            <a href="/blog/productivite-bien-etre.html" class="blog-card-link">
-              <div class="blog-card-image">
-                <img src="https://images.pexels.com/photos/3182765/pexels-photo-3182765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Productivité et bien-être : l'équation ViteButNotTooMuch" width="400" height="250">
-              </div>
-              <div class="blog-card-content">
-                <div class="post-meta">
-                  <span class="post-date">28 décembre 2024</span>
-                  <span class="post-category">Équilibre</span>
-                </div>
-                <h3 class="blog-card-title">Productivité et bien-être : l'équation <span class="highlight">ViteButNotTooMuch</span></h3>
-                <p class="blog-card-excerpt">Analyse de la relation entre productivité et bien-être à travers le prisme de notre méthode <strong>ViteButNotTooMuch</strong>, avec des conseils pratiques.</p>
-              </div>
-            </a>
-          </article>
-          
-          <article class="blog-card">
-            <a href="/blog/techniques-equilibre.html" class="blog-card-link">
-              <div class="blog-card-image">
-                <img src="https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="3 techniques pour trouver votre équilibre ViteButNotTooMuch" width="400" height="250">
-              </div>
-              <div class="blog-card-content">
-                <div class="post-meta">
-                  <span class="post-date">15 décembre 2024</span>
-                  <span class="post-category">Méthodologie</span>
-                </div>
-                <h3 class="blog-card-title">3 techniques pour trouver votre équilibre <span class="highlight">ViteButNotTooMuch</span></h3>
-                <p class="blog-card-excerpt">Guide pratique pour implémenter trois techniques efficaces qui vous aideront à trouver votre rythme idéal selon notre approche <strong>ViteButNotTooMuch</strong>.</p>
-              </div>
-            </a>
-          </article>
-          
-          <article class="blog-card">
-            <a href="/blog/mythes-productivite.html" class="blog-card-link">
-              <div class="blog-card-image">
-                <img src="https://images.pexels.com/photos/3184455/pexels-photo-3184455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Les 7 mythes de la productivité démentis par ViteButNotTooMuch" width="400" height="250">
-              </div>
-              <div class="blog-card-content">
-                <div class="post-meta">
-                  <span class="post-date">5 décembre 2024</span>
-                  <span class="post-category">Productivité</span>
-                </div>
-                <h3 class="blog-card-title">Les 7 mythes de la productivité démentis par <span class="highlight">ViteButNotTooMuch</span></h3>
-                <p class="blog-card-excerpt">Déconstruction des idées reçues sur la productivité et comment notre approche <strong>ViteButNotTooMuch</strong> offre une alternative plus équilibrée.</p>
-              </div>
-            </a>
-          </article>
-          
-          <article class="blog-card">
-            <a href="/blog/temoignage-transformation.html" class="blog-card-link">
-              <div class="blog-card-image">
-                <img src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Témoignage : Ma transformation grâce à ViteButNotTooMuch" width="400" height="250">
-              </div>
-              <div class="blog-card-content">
-                <div class="post-meta">
-                  <span class="post-date">28 novembre 2024</span>
-                  <span class="post-category">Témoignages</span>
-                </div>
-                <h3 class="blog-card-title">Témoignage : Ma transformation grâce à <span class="highlight">ViteButNotTooMuch</span></h3>
-                <p class="blog-card-excerpt">Marie, dirigeante d'une PME française, partage son expérience de transformation personnelle et professionnelle après avoir adopté notre méthode <strong>ViteButNotTooMuch</strong>.</p>
-              </div>
-            </a>
-          </article>
-          
-          <article class="blog-card">
-            <a href="/blog/equilibre-numerique.html" class="blog-card-link">
-              <div class="blog-card-image">
-                <img src="https://images.pexels.com/photos/3184461/pexels-photo-3184461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="L'équilibre numérique selon ViteButNotTooMuch" width="400" height="250">
-              </div>
-              <div class="blog-card-content">
-                <div class="post-meta">
-                  <span class="post-date">15 novembre 2024</span>
-                  <span class="post-category">Bien-être</span>
-                </div>
-                <h3 class="blog-card-title">L'équilibre numérique selon <span class="highlight">ViteButNotTooMuch</span></h3>
-                <p class="blog-card-excerpt">Comment appliquer les principes <strong>ViteButNotTooMuch</strong> à votre consommation numérique pour une relation plus saine avec la technologie.</p>
-              </div>
-            </a>
-          </article>
-        </div>
-        
-        <div class="blog-pagination">
-          <button class="pagination-btn active">1</button>
-          <button class="pagination-btn">2</button>
-          <button class="pagination-btn">3</button>
-          <span class="pagination-separator">...</span>
-          <button class="pagination-btn">10</button>
-          <button class="pagination-btn next">Suivant</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="newsletter">
-      <div class="container">
-        <div class="newsletter-content">
-          <h2 class="section-title">Abonnez-vous à notre newsletter <span class="highlight">ViteButNotTooMuch</span></h2>
-          <p class="newsletter-text">Recevez nos derniers articles et conseils pour trouver l'équilibre parfait entre rapidité et qualité directement dans votre boîte mail.</p>
-          <form class="newsletter-form">
-            <div class="form-group">
-              <input type="email" placeholder="Votre adresse email" class="form-input" required>
-              <button type="submit" class="btn btn-primary">S'abonner</button>
-            </div>
-            <div class="form-consent">
-              <input type="checkbox" id="newsletter-consent" class="form-checkbox" required>
-              <label for="newsletter-consent" class="checkbox-label">J'accepte de recevoir la newsletter de ViteButNotTooMuch (désinscription possible à tout moment).</label>
-            </div>
-          </form>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/" class="footer-logo" aria-label="ViteButNotTooMuch - Page d'accueil">
+        <div class="header-inner">
+          <a
+            href="/"
+            class="logo"
+            aria-label="ViteButNotTooMuch - Page d'accueil"
+          >
             <span class="logo-text">ViteButNotTooMuch</span>
           </a>
-          <p class="footer-tagline">L'équilibre parfait entre rapidité et qualité</p>
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="/" class="nav-link">Accueil</a></li>
+              <li class="nav-item">
+                <a href="/a-propos.html" class="nav-link">À propos</a>
+              </li>
+              <li class="nav-item">
+                <a href="/services.html" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="/blog.html" class="nav-link active">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a href="/contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="mobile-menu-toggle" aria-label="Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
         </div>
-        <div class="footer-links">
-          <div class="footer-links-column">
-            <h3 class="footer-links-title">Navigation</h3>
-            <ul class="footer-nav-list">
-              <li class="footer-nav-item"><a href="/" class="footer-nav-link">Accueil</a></li>
-              <li class="footer-nav-item"><a href="/a-propos.html" class="footer-nav-link">À propos</a></li>
-              <li class="footer-nav-item"><a href="/services.html" class="footer-nav-link">Services</a></li>
-              <li class="footer-nav-item"><a href="/blog.html" class="footer-nav-link">Blog</a></li>
-              <li class="footer-nav-item"><a href="/contact.html" class="footer-nav-link">Contact</a></li>
-            </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1 class="page-title">
+            Blog <span class="highlight">ViteButNotTooMuch</span>
+          </h1>
+          <p class="page-subtitle">
+            Explorez nos articles sur l'équilibre parfait
+          </p>
+        </div>
+      </section>
+
+      <section class="blog-featured">
+        <div class="container">
+          <article class="featured-post">
+            <div class="featured-post-image">
+              <img
+                src="https://images.pexels.com/photos/3182743/pexels-photo-3182743.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                loading="lazy"
+                alt="5 principes fondamentaux de l'approche ViteButNotTooMuch"
+                width="600"
+                height="400"
+              />
+            </div>
+            <div class="featured-post-content">
+              <div class="post-meta">
+                <span class="post-date">10 janvier 2025</span>
+                <span class="post-category">Méthodologie</span>
+              </div>
+              <h2 class="post-title">
+                5 principes fondamentaux de l'approche
+                <span class="highlight">ViteButNotTooMuch</span>
+              </h2>
+              <p class="post-excerpt">
+                Découvrez les cinq principes clés qui constituent le cœur de
+                notre philosophie <strong>ViteButNotTooMuch</strong> et comment
+                ils peuvent transformer votre approche de la productivité et du
+                bien-être.
+              </p>
+              <a
+                href="/blog/principes-vitebutnottoomuch.html"
+                class="btn btn-secondary"
+                >Lire l'article</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="blog-list">
+        <div class="container">
+          <div class="blog-filter">
+            <h2 class="filter-title">Filtrer par catégorie</h2>
+            <div class="filter-options">
+              <button class="filter-btn active" data-filter="all">Tout</button>
+              <button class="filter-btn" data-filter="methodologie">
+                Méthodologie
+              </button>
+              <button class="filter-btn" data-filter="equilibre">
+                Équilibre
+              </button>
+              <button class="filter-btn" data-filter="productivite">
+                Productivité
+              </button>
+              <button class="filter-btn" data-filter="bien-etre">
+                Bien-être
+              </button>
+              <button class="filter-btn" data-filter="etudes-cas">
+                Études de cas
+              </button>
+            </div>
           </div>
-          <div class="footer-links-column">
-            <h3 class="footer-links-title">Services</h3>
-            <ul class="footer-nav-list">
-              <li class="footer-nav-item"><a href="/services.html#conseil" class="footer-nav-link">Conseil</a></li>
-              <li class="footer-nav-item"><a href="/services.html#formation" class="footer-nav-link">Formation</a></li>
-              <li class="footer-nav-item"><a href="/services.html#coaching" class="footer-nav-link">Coaching</a></li>
-              <li class="footer-nav-item"><a href="/services.html#audit" class="footer-nav-link">Audit</a></li>
-            </ul>
+
+          <div class="blog-grid">
+            <article class="blog-card">
+              <a
+                href="/blog/entreprises-vitebutnottoomuch.html"
+                class="blog-card-link"
+              >
+                <div class="blog-card-image">
+                  <img
+                    src="https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    loading="lazy"
+                    alt="Comment les entreprises françaises adoptent l'approche ViteButNotTooMuch"
+                    width="400"
+                    height="250"
+                  />
+                </div>
+                <div class="blog-card-content">
+                  <div class="post-meta">
+                    <span class="post-date">5 janvier 2025</span>
+                    <span class="post-category">Études de cas</span>
+                  </div>
+                  <h3 class="blog-card-title">
+                    Comment les entreprises françaises adoptent l'approche
+                    <span class="highlight">ViteButNotTooMuch</span>
+                  </h3>
+                  <p class="blog-card-excerpt">
+                    Exploration des stratégies mises en place par les leaders du
+                    marché français pour intégrer la philosophie
+                    <strong>ViteButNotTooMuch</strong> dans leur culture
+                    d'entreprise.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="blog-card">
+              <a
+                href="/blog/productivite-bien-etre.html"
+                class="blog-card-link"
+              >
+                <div class="blog-card-image">
+                  <img
+                    src="https://images.pexels.com/photos/3182765/pexels-photo-3182765.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    loading="lazy"
+                    alt="Productivité et bien-être : l'équation ViteButNotTooMuch"
+                    width="400"
+                    height="250"
+                  />
+                </div>
+                <div class="blog-card-content">
+                  <div class="post-meta">
+                    <span class="post-date">28 décembre 2024</span>
+                    <span class="post-category">Équilibre</span>
+                  </div>
+                  <h3 class="blog-card-title">
+                    Productivité et bien-être : l'équation
+                    <span class="highlight">ViteButNotTooMuch</span>
+                  </h3>
+                  <p class="blog-card-excerpt">
+                    Analyse de la relation entre productivité et bien-être à
+                    travers le prisme de notre méthode
+                    <strong>ViteButNotTooMuch</strong>, avec des conseils
+                    pratiques.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="blog-card">
+              <a href="/blog/techniques-equilibre.html" class="blog-card-link">
+                <div class="blog-card-image">
+                  <img
+                    src="https://images.pexels.com/photos/3184454/pexels-photo-3184454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    loading="lazy"
+                    alt="3 techniques pour trouver votre équilibre ViteButNotTooMuch"
+                    width="400"
+                    height="250"
+                  />
+                </div>
+                <div class="blog-card-content">
+                  <div class="post-meta">
+                    <span class="post-date">15 décembre 2024</span>
+                    <span class="post-category">Méthodologie</span>
+                  </div>
+                  <h3 class="blog-card-title">
+                    3 techniques pour trouver votre équilibre
+                    <span class="highlight">ViteButNotTooMuch</span>
+                  </h3>
+                  <p class="blog-card-excerpt">
+                    Guide pratique pour implémenter trois techniques efficaces
+                    qui vous aideront à trouver votre rythme idéal selon notre
+                    approche <strong>ViteButNotTooMuch</strong>.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="blog-card">
+              <a href="/blog/mythes-productivite.html" class="blog-card-link">
+                <div class="blog-card-image">
+                  <img
+                    src="https://images.pexels.com/photos/3184455/pexels-photo-3184455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    loading="lazy"
+                    alt="Les 7 mythes de la productivité démentis par ViteButNotTooMuch"
+                    width="400"
+                    height="250"
+                  />
+                </div>
+                <div class="blog-card-content">
+                  <div class="post-meta">
+                    <span class="post-date">5 décembre 2024</span>
+                    <span class="post-category">Productivité</span>
+                  </div>
+                  <h3 class="blog-card-title">
+                    Les 7 mythes de la productivité démentis par
+                    <span class="highlight">ViteButNotTooMuch</span>
+                  </h3>
+                  <p class="blog-card-excerpt">
+                    Déconstruction des idées reçues sur la productivité et
+                    comment notre approche
+                    <strong>ViteButNotTooMuch</strong> offre une alternative
+                    plus équilibrée.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="blog-card">
+              <a
+                href="/blog/temoignage-transformation.html"
+                class="blog-card-link"
+              >
+                <div class="blog-card-image">
+                  <img
+                    src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    loading="lazy"
+                    alt="Témoignage : Ma transformation grâce à ViteButNotTooMuch"
+                    width="400"
+                    height="250"
+                  />
+                </div>
+                <div class="blog-card-content">
+                  <div class="post-meta">
+                    <span class="post-date">28 novembre 2024</span>
+                    <span class="post-category">Témoignages</span>
+                  </div>
+                  <h3 class="blog-card-title">
+                    Témoignage : Ma transformation grâce à
+                    <span class="highlight">ViteButNotTooMuch</span>
+                  </h3>
+                  <p class="blog-card-excerpt">
+                    Marie, dirigeante d'une PME française, partage son
+                    expérience de transformation personnelle et professionnelle
+                    après avoir adopté notre méthode
+                    <strong>ViteButNotTooMuch</strong>.
+                  </p>
+                </div>
+              </a>
+            </article>
+
+            <article class="blog-card">
+              <a href="/blog/equilibre-numerique.html" class="blog-card-link">
+                <div class="blog-card-image">
+                  <img
+                    src="https://images.pexels.com/photos/3184461/pexels-photo-3184461.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    loading="lazy"
+                    alt="L'équilibre numérique selon ViteButNotTooMuch"
+                    width="400"
+                    height="250"
+                  />
+                </div>
+                <div class="blog-card-content">
+                  <div class="post-meta">
+                    <span class="post-date">15 novembre 2024</span>
+                    <span class="post-category">Bien-être</span>
+                  </div>
+                  <h3 class="blog-card-title">
+                    L'équilibre numérique selon
+                    <span class="highlight">ViteButNotTooMuch</span>
+                  </h3>
+                  <p class="blog-card-excerpt">
+                    Comment appliquer les principes
+                    <strong>ViteButNotTooMuch</strong> à votre consommation
+                    numérique pour une relation plus saine avec la technologie.
+                  </p>
+                </div>
+              </a>
+            </article>
           </div>
-          <div class="footer-links-column">
-            <h3 class="footer-links-title">Contact</h3>
-            <address class="footer-contact">
-              <p>Email: contact@vitebutnottoomuch.tech</p>
-              <p>Tél: +33 1 23 45 67 89</p>
-              <p>75 Rue de Paris, 75001 Paris, France</p>
-            </address>
+
+          <div class="blog-pagination">
+            <button class="pagination-btn active">1</button>
+            <button class="pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <span class="pagination-separator">...</span>
+            <button class="pagination-btn">10</button>
+            <button class="pagination-btn next">Suivant</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter">
+        <div class="container">
+          <div class="newsletter-content">
+            <h2 class="section-title">
+              Abonnez-vous à notre newsletter
+              <span class="highlight">ViteButNotTooMuch</span>
+            </h2>
+            <p class="newsletter-text">
+              Recevez nos derniers articles et conseils pour trouver l'équilibre
+              parfait entre rapidité et qualité directement dans votre boîte
+              mail.
+            </p>
+            <form class="newsletter-form">
+              <div class="form-group">
+                <input
+                  type="email"
+                  placeholder="Votre adresse email"
+                  class="form-input"
+                  required
+                />
+                <button type="submit" class="btn btn-primary">S'abonner</button>
+              </div>
+              <div class="form-consent">
+                <input
+                  type="checkbox"
+                  id="newsletter-consent"
+                  class="form-checkbox"
+                  required
+                />
+                <label for="newsletter-consent" class="checkbox-label"
+                  >J'accepte de recevoir la newsletter de ViteButNotTooMuch
+                  (désinscription possible à tout moment).</label
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <a
+              href="/"
+              class="footer-logo"
+              aria-label="ViteButNotTooMuch - Page d'accueil"
+            >
+              <span class="logo-text">ViteButNotTooMuch</span>
+            </a>
+            <p class="footer-tagline">
+              L'équilibre parfait entre rapidité et qualité
+            </p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-links-column">
+              <h3 class="footer-links-title">Navigation</h3>
+              <ul class="footer-nav-list">
+                <li class="footer-nav-item">
+                  <a href="/" class="footer-nav-link">Accueil</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/a-propos.html" class="footer-nav-link">À propos</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/services.html" class="footer-nav-link">Services</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/blog.html" class="footer-nav-link">Blog</a>
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/contact.html" class="footer-nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-links-column">
+              <h3 class="footer-links-title">Services</h3>
+              <ul class="footer-nav-list">
+                <li class="footer-nav-item">
+                  <a href="/services.html#conseil" class="footer-nav-link"
+                    >Conseil</a
+                  >
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/services.html#formation" class="footer-nav-link"
+                    >Formation</a
+                  >
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/services.html#coaching" class="footer-nav-link"
+                    >Coaching</a
+                  >
+                </li>
+                <li class="footer-nav-item">
+                  <a href="/services.html#audit" class="footer-nav-link"
+                    >Audit</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="footer-links-column">
+              <h3 class="footer-links-title">Contact</h3>
+              <address class="footer-contact">
+                <p>Email: contact@vitebutnottoomuch.tech</p>
+                <p>Tél: +33 1 23 45 67 89</p>
+                <p>220 Rue du Faubourg Saint-Antoine, 75012 Paris, France</p>
+              </address>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p class="copyright">
+            © 2025 ViteButNotTooMuch. Tous droits réservés.
+          </p>
+          <div class="footer-legal">
+            <a href="/mentions-legales.html" class="legal-link"
+              >Mentions légales</a
+            >
+            <a href="/politique-confidentialite.html" class="legal-link"
+              >Politique de confidentialité</a
+            >
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p class="copyright">© 2025 ViteButNotTooMuch. Tous droits réservés.</p>
-        <div class="footer-legal">
-          <a href="/mentions-legales.html" class="legal-link">Mentions légales</a>
-          <a href="/politique-confidentialite.html" class="legal-link">Politique de confidentialité</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
